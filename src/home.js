@@ -18,9 +18,11 @@ const homePage = () => {
 const homePageContent = () => {
     $("main").innerHTML =
         `
-        <h1> come eat with us @ Macbrite Restaurant </h1>
-        <h4> It's never too early to book your Holiday Party! 
-        Come on in or give us a call to reserve yours today! </h4>
+        <div class="home-content"> 
+            <h1> come eat with us @ Macbrite Restaurant </h1>
+            <h4> It's never too early to book your Holiday Party! 
+            Come on <br> in or give us a call to reserve yours today! </h4>
+        </div>
     `
 };
 

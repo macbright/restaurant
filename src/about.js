@@ -3,7 +3,7 @@ const $ = document.querySelector.bind(document)
 const aboutUs = () => {
     $("main").innerHTML =
         `   
-        <div class="row">
+        <div class="row about-content container">
             <h2>  Passionately personal and genuinely delicious! </h2>
 
             <p> 

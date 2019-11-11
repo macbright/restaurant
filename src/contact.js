@@ -9,12 +9,12 @@ const contactUS = () => {
            
             
             <div class=" row contact-info">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h5> no 5 cresent avenue</h5>
                     <p>Abuja, Nigeria</p>
                     <h5>+234908435848</h5>
                     <p>Every day 9am to 10pm</p>
-                    <h5>support@macbrite.com</h5>
+                    <h6>support@macbrite.com</h6>
                     <p>Send us your query anytime!</p>
                 </div>
                 
@@ -26,7 +26,7 @@ const contactUS = () => {
                         <textarea class="form-control" placeholder="Enter Message" required>
                             </textarea>
                         
-                        <button type="submit" class="form-btn">
+                        <button type="submit" class="">
                             Submit
                         </button>
                     </form>

@@ -1,7 +1,7 @@
 const $ = document.querySelector.bind(document);
 
 const ourMenu = () => {
-    $("#homeContent").innerHTML =
+    $("main").innerHTML =
         `
         <div class="foodMenu">
             <div class="meal">

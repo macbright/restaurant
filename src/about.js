@@ -1,7 +1,7 @@
 const $ = document.querySelector.bind(document)
 
 const aboutUs = () => {
-    $("#homeContent").innerHTML =
+    $("main").innerHTML =
         `   
         <div class="row">
             <h2>  Passionately personal and genuinely delicious! </h2>
@@ -38,6 +38,6 @@ const aboutUs = () => {
     
     `;
 
-}
+};
 
 export { aboutUs };

@@ -4,18 +4,19 @@ const homePage = () => {
     $("#content").innerHTML =
         ` 
         <header class="container">
-            <div class="home tab"> Home</div>
-            <div class="about tab"> About Us</div>
-            <div class="menu tab"> Menu</div>
-            <div class="contact tab"> Contact Us</div>
+            <div class="heading"> Macbrite Restaurant</div>
+            <div class="tab home"> Home</div>
+            <div class="tab about"> About Us</div>
+            <div class="tab menu"> Menu</div>
+            <div class="tab contact"> Contact Us</div>
         </header>
-        <main id="homeContent", class="container"></main>
+        <main id="home", class="container"></main>
         
     `;
 };
 
 const homePageContent = () => {
-    $("#homeContent").innerHTML =
+    $("main").innerHTML =
         `
         <h1> come eat with us @ Macbrite Restaurant </h1>
         <h4> It's never too early to book your Holiday Party! 

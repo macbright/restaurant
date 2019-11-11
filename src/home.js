@@ -1,8 +1,7 @@
-const $ = document.querySelector.bind(document)
+const $ = document.querySelector.bind(document);
 
 const homePage = () => {
-    $("#content").innerHTML =
-        ` 
+    $('#content').innerHTML = ` 
         <header class="container">
             <div class="heading"> Macbrite Restaurant</div>
             <div class="tab home"> Home</div>
@@ -16,14 +15,13 @@ const homePage = () => {
 };
 
 const homePageContent = () => {
-    $("main").innerHTML =
-        `
+    $('main').innerHTML = `
         <div class="home-content"> 
-            <h1> come eat with us @ Macbrite Restaurant </h1>
-            <h4> It's never too early to book your Holiday Party! 
+            <h1 class="home-h1"> come eat with us @ Macbrite Restaurant </h1>
+            <h4 class="home-h4"> It's never too early to book your Holiday Party! 
             Come on <br> in or give us a call to reserve yours today! </h4>
         </div>
-    `
+    `;
 };
 
 export { homePage, homePageContent };

@@ -1,49 +1,45 @@
-import { homePage, homePageContent } from './home';
-import { contactUS } from './contact';
-import { ourMenu } from './menu';
-import { aboutUs } from './about';
+import { homePage, homePageContent } from "./home";
+import { contactUS } from "./contact";
+import { ourMenu } from "./menu";
+import { aboutUs } from "./about";
 
-const $ = document.querySelector.bind(document)
-const $$ = document.querySelectorAll.bind(document)
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
 
 homePage();
 homePageContent();
 
-Array.from($$('.tab')).forEach(el => {
-    el.addEventListener('click', e => {
+Array.from($$(".tab")).forEach(el => {
+    el.addEventListener("click", e => {
         e.preventDefault;
-        let btnName = el.className.replace('tab ', '');
-        let main = $('main');
-        console.log("good")
+        const btnName = el.className.replace("tab ", "");
+        const main = $("main");
 
         switch (btnName) {
-            case 'home':
+            case "home":
                 {
                     homePageContent();
                     main.id = "home";
                     break;
                 }
-            case 'about':
+            case "about":
                 {
                     aboutUs();
                     main.id = "about";
                     break;
                 }
-            case 'menu':
+            case "menu":
                 {
                     ourMenu();
                     main.id = "menu";
                     break;
                 }
-            case 'contact':
+            case "contact":
                 {
                     contactUS();
                     main.id = "contact";
                     break;
                 }
         }
-
-
-    })
-
+    });
 });

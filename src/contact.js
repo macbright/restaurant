@@ -1,11 +1,10 @@
 const $ = document.querySelector.bind(document);
 
 const contactUS = () => {
-    $("main").innerHTML =
-        `
+    $("main").innerHTML = `
         <section id="contact" class="contact-content">
             
-            <h1>Contact Us</h1>
+            <h1 class="heading">Contact Us</h1>
            
             
             <div class=" row contact-info">
@@ -34,8 +33,7 @@ const contactUS = () => {
             </div>
         </section>
         
-    `
+    `;
+};
 
-}
-
-export { contactUS };
+export default { contactUS };

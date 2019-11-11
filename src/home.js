@@ -1,6 +1,8 @@
+// eslint-disable-next-line no-undef
 const $ = document.querySelector.bind(document);
 
 const homePage = () => {
+    // eslint-disable-next-line no-undef
     $('#content').innerHTML = ` 
         <header class="container">
             <div class="heading"> Macbrite Restaurant</div>
@@ -15,6 +17,7 @@ const homePage = () => {
 };
 
 const homePageContent = () => {
+    // eslint-disable-next-line no-undef
     $('main').innerHTML = `
         <div class="home-content"> 
             <h1 class="home-h1"> come eat with us @ Macbrite Restaurant </h1>

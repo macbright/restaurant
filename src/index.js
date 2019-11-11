@@ -3,12 +3,14 @@ import { contactUS } from "./contact";
 import { ourMenu } from "./menu";
 import { aboutUs } from "./about";
 
+// eslint-disable-next-line no-undef
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
 homePage();
 homePageContent();
 
+// eslint-disable-next-line no-undef
 Array.from($$(".tab")).forEach(el => {
     el.addEventListener("click", e => {
         e.preventDefault;

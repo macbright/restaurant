@@ -1,6 +1,8 @@
+// eslint-disable-next-line no-undef
 const $ = document.querySelector.bind(document);
 
 const ourMenu = () => {
+    // eslint-disable-next-line no-undef
     $("main").innerHTML =
         `
         <div class="row foodMenu">

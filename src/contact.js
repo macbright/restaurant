@@ -1,6 +1,9 @@
+// eslint-disable-next-line no-undef
 const $ = document.querySelector.bind(document);
 
+
 const contactUS = () => {
+    // eslint-disable-next-line no-undef
     $("main").innerHTML = `
         <section id="contact" class="contact-content">
             

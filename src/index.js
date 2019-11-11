@@ -1,4 +1,7 @@
 const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
-$("#content").innerHTML = "welcome to our restaurant page";
+import { homePage, homePageContent } from './home';
+
+homePage();
+homePageContent();

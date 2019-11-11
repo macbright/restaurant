@@ -1,0 +1,39 @@
+body {
+    height: 100%;
+    margin: 0;
+    background: #ddd;
+}
+
+.bg {
+    height: 50%;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab {
+    margin-right: 5px;
+    width: 180px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.tab:hover,
+.tab:active,
+.tab:focus {
+    background-color: #f90202;
+}

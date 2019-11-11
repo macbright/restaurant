@@ -16,7 +16,7 @@ const contactUS = () => {
                     <p>Abuja, Nigeria</p>
                     <h5>+234908435848</h5>
                     <p>Every day 9am to 10pm</p>
-                    <h6>support@macbrite.com</h6>
+                    <h6 class="email">support@macbrite.com</h6>
                     <p>Send us your query anytime!</p>
                 </div>
                 
@@ -39,4 +39,5 @@ const contactUS = () => {
     `;
 };
 
-export default { contactUS };
+
+export { contactUS };

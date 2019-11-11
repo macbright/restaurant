@@ -40,4 +40,4 @@ const aboutUs = () => {
     `;
 };
 
-export default { aboutUs };
+export { aboutUs };

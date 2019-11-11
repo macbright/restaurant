@@ -35,5 +35,5 @@ header {
 .tab:hover,
 .tab:active,
 .tab:focus {
-    background-color: #f90202;
+    background-color: rgb(244, 180, 7)
 }

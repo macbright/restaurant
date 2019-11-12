@@ -2,8 +2,8 @@
 const $ = document.querySelector.bind(document);
 
 const ourMenu = () => {
-    // eslint-disable-next-line no-undef
-    $('main').innerHTML = `
+	// eslint-disable-next-line no-undef
+	$('main').innerHTML = `
 		<div class="row foodMenu">
 			<div class="col-md-3 meal">
 				<div class="meal-img">
@@ -64,4 +64,4 @@ const ourMenu = () => {
 	`;
 };
 
-export { ourMenu };
+export{ ourMenu } ;

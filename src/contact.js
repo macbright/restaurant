@@ -2,13 +2,11 @@
 const $ = document.querySelector.bind(document);
 
 const contactUS = () => {
-    // eslint-disable-next-line no-undef
-    $('main').innerHTML = `
+	// eslint-disable-next-line no-undef
+	$('main').innerHTML = `
 	<section id="contact" class="contact-content">
 			
-		<h1 class="heading">Contact Us</h1>
-		
-		
+		<h1 class="heading1">Contact Us</h1>
 		<div class=" row contact-info">
 			<div class="col-md-4">
 				<h5> no 5 cresent avenue</h5>
@@ -38,4 +36,4 @@ const contactUS = () => {
 	`;
 };
 
-export { contactUS };
+export {contactUS } ;

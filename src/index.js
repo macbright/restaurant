@@ -18,7 +18,8 @@ Array.from($$('.tab')).forEach(el => { /* eslint-disable-line arrow-parens */
 		const btnName = el.className.replace('tab ', '');	/* eslint-disable-line no-trailing-spaces */
 		// eslint-disable-next-line no-undef
 		const main = $('main');
-		/*eslint indent: ["error", 2, { "SwitchCase": 1 }]*/
+		
+		 /*eslint indent: ["error", 2, { "SwitchCase": 1 }]*/ 
 		switch (btnName) { /* eslint-disable-line default-case */
 			case 'home':
 				homePageContent();

@@ -1,18 +1,15 @@
 body {
-    height: 100%;
-    margin: 0;
     background: #ddd;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    margin: 0;
+    height: 100%;
 }
 
 .bg {
-    height: 50%;
     background-image: url(img/bg.jpg);
     background-position: center;
-    overflow: hidden;
     background-size: cover;
+    height: 50%;
+    overflow: hidden;
 }
 
 p {
@@ -20,24 +17,24 @@ p {
 }
 
 header {
-    margin-top: 20px;
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .tab {
-    margin-right: 5px;
-    width: 180px;
     background-color: #000000;
-    color: #fff;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 10px;
-    cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 1px 5px #686868cc;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 180px;
 }
 
 .tab:hover,
@@ -50,20 +47,20 @@ header {
 }
 
 .heading {
-    color: #fff;
-    text-align: center;
-    font-size: 35px;
     background-color: #f4b407;
     box-shadow: 0 1px 5px #686868cc;
-    font-weight: bold;
-    padding: 10px;
-    margin-right: 5px;
     border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+    margin-right: 5px;
+    padding: 10px;
+    text-align: center;
 }
 
 .home-content {
-    text-align: center;
     margin-top: 50px;
+    text-align: center;
 }
 
 .home-h1 {
@@ -72,8 +69,8 @@ header {
 }
 
 .about-content {
-    padding: 30px;
     font-size: 16px;
+    padding: 30px;
 }
 
 .about-content p {
@@ -81,10 +78,10 @@ header {
 }
 
 .home-h4 {
-    font-weight: bold;
-    text-align: center;
     align-content: center;
+    font-weight: bold;
     padding: 10px;
+    text-align: center;
 }
 
 .foodMenu {
@@ -93,37 +90,37 @@ header {
 }
 
 .meal {
-    width: 100%;
-    background: #d0cfcf;
-    margin: 20px;
-    height: 450px;
-    padding: 0;
     border-radius: 10px;
     box-shadow: 0 1px 5px #686868cc;
+    background: #d0cfcf;
     cursor: pointer;
+    height: 450px;
+    margin: 20px;
+    padding: 0;
+    width: 100%;
 }
 
 .meal p {
-    padding: 20px;
     margin-top: 20px;
+    padding: 20px;
 }
 
 .meal span {
-    font-weight: bolder;
     float: right;
+    font-weight: bolder;
 }
 
 .meal-img {
-    height: 50%;
-    width: 100%;
-    margin: 0;
     border-radius: 10px;
+    height: 50%;
+    margin: 0;
+    width: 100%;
 }
 
 .meal-img img {
+    margin-bottom: 20px;
     height: 250px;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .meal:hover {
@@ -131,10 +128,10 @@ header {
 }
 
 .contact-content .heading {
-    font-weight: bolder;
     color: #c99504;
-    text-align: center;
+    font-weight: bolder;
     margin: 20px;
+    text-align: center;
 }
 
 .contact-content {
@@ -142,13 +139,13 @@ header {
 }
 
 .contact-info .col-md-4 {
-    text-align: center;
-    font-weight: bold;
     background-color: #ebe8e8;
-    margin-right: 20px;
-    padding: 40px 20px;
     border-radius: 10px;
     box-shadow: 0 1px 5px #686868cc;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .contact-info .col-md-4 .email {
@@ -156,21 +153,21 @@ header {
 }
 
 input {
-    margin-bottom: 8px;
     border-radius: 5px;
+    margin-bottom: 8px;
 }
 
 textarea {
-    margin-bottom: 15px;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 button {
-    padding: 6px 15px;
-    background-color: #f4b407;
-    font-size: 25px;
-    color: #fff;
-    font-weight: bold;
-    float: right;
     border-radius: 10px;
+    background-color: #f4b407;
+    color: #fff;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 6px 15px;
 }

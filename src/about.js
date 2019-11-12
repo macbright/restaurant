@@ -3,7 +3,7 @@ const $ = document.querySelector.bind(document);
 
 const aboutUs = () => {
 	// eslint-disable-next-line no-undef
-	$('main').innerHTML =  `   
+	$('main').innerHTML = `   
 		<div class="row about-content container">
 			<h2>  Passionately personal and genuinely delicious! </h2>
 

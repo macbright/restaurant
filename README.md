@@ -28,7 +28,7 @@ $ cd restaurant
 
 ## Live Demo
 
-The demo page can be found [HERE]()
+The demo page can be found [HERE](https://raw.githack.com/macbright/restaurant/main-dev/dist/index.html)
 
 ## Designed and developed by
 

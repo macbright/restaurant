@@ -36,4 +36,4 @@ const contactUS = () => {
 	`;
 };
 
-export {contactUS } ;
+export { contactUS };

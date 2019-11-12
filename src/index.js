@@ -19,31 +19,23 @@ Array.from($$('.tab')).forEach(el => {/* eslint-disable-line arrow-parens */
 		// eslint-disable-next-line no-undef
 		const main = $('main');
 
-		switch (btnName) { /* eslint-disable-line default-case */
+		switch (btnName) { 
 			case 'home':	
-				{
-					homePageContent();
-					main.id = 'home';
-					break;
-				}
+				homePageContent();
+				main.id = 'home';
+				break;
 			case 'about':	
-				{	 
-					aboutUs();
-					main.id = 'about'; 
-					break; 
-				} 
+				aboutUs();
+				main.id = 'about'; 
+				break; 
 			case 'menu': 
-				{ 
-					ourMenu(); 
-					main.id = 'menu'; 
-					break; 
-				} 
+				ourMenu(); 
+				main.id = 'menu'; 
+				break; 
 			case 'contact': 
-				{ 
-					contactUS(); 
-					main.id = 'contact'; 
-					break; 
-				} 
+				contactUS(); 
+				main.id = 'contact'; 
+				break; 
 		} 
 	});
 });

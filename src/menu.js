@@ -64,4 +64,4 @@ const ourMenu = () => {
 	`;
 };
 
-export { ourMenu };
+export { ourMenu }; /* eslint-disable-line import/prefer-default-export */

@@ -36,4 +36,4 @@ const contactUS = () => {
 	`;
 };
 
-export { contactUS };
+export { contactUS }; /* eslint-disable-line import/prefer-default-export */

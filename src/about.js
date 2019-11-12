@@ -39,5 +39,4 @@ const aboutUs = () => {
 
   `;
 };
-
-export { aboutUs };
+export { aboutUs }; /* eslint-disable-line import/prefer-default-export */

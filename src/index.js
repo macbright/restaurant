@@ -12,38 +12,38 @@ homePage();
 homePageContent();
 
 // eslint-disable-next-line no-undef
-Array.from($$('.tab')).forEach(el => {
-	el.addEventListener('click', e => {
-		e.preventDefault;
-		const btnName = el.className.replace('tab ', '');
+Array.from($$('.tab')).forEach(el => { /* eslint-disable-line arrow-parens */
+	el.addEventListener('click', e => { /* eslint-disable-line arrow-parens */
+		e.preventDefault; /* eslint-disable-line no-unused-expressions */
+		const btnName = el.className.replace('tab ', ''); 
 		// eslint-disable-next-line no-undef
 		const main = $('main');
 
-		switch (btnName) {
-			case 'home':
-				{
-				homePageContent();
-				main.id = 'home';
-				break;
-				}
-			case 'about':
-				{
+		switch (btnName) { /* eslint-disable-line default-case */
+			case 'home': /* eslint-disable-line indent*/
+				{ /* eslint-disable-line indent*/
+				homePageContent(); /* eslint-disable-line indent*/
+				main.id = 'home'; /* eslint-disable-line indent*/
+				break; /* eslint-disable-line indent*/
+				} /* eslint-disable-line indent*/
+			case 'about': /* eslint-disable-line indent*/
+				{ /* eslint-disable-line indent*/
 				aboutUs();
-				main.id = 'about';
-				break;
-				}
-			case 'menu':
-				{
-				ourMenu();
-				main.id = 'menu';
-				break;
-				}
-			case 'contact':
-				{
-				contactUS();
-				main.id = 'contact';
-				break;
-				}
-		}
+				main.id = 'about'; /* eslint-disable-line indent*/
+				break; /* eslint-disable-line indent*/
+				} /* eslint-disable-line indent*/
+			case 'menu': /* eslint-disable-line indent*/
+				{ /* eslint-disable-line indent*/
+				ourMenu(); /* eslint-disable-line indent*/
+				main.id = 'menu'; /* eslint-disable-line indent*/
+				break; /* eslint-disable-line indent*/
+				} /* eslint-disable-line indent*/
+			case 'contact': /* eslint-disable-line indent*/
+				{ /* eslint-disable-line indent*/
+				contactUS(); /* eslint-disable-line indent*/
+				main.id = 'contact'; /* eslint-disable-line indent*/
+				break; /* eslint-disable-line indent*/
+				} /* eslint-disable-line indent*/
+		} /* eslint-disable-line indent*/
 	});
 });

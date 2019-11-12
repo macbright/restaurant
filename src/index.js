@@ -36,6 +36,6 @@ Array.from($$('.tab')).forEach(el => { /* eslint-disable-line arrow-parens */
 				contactUS();
 				main.id = 'contact';
 				break;
-    }
-  });
+		}
+	});
 });

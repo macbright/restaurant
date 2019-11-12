@@ -1,7 +1,7 @@
-import { homePage, homePageContent } from "./home";
-import { contactUS } from "./contact";
-import { ourMenu } from "./menu";
-import { aboutUs } from "./about";
+import { homePage, homePageContent } from './home';
+import { contactUS } from './contact';
+import { ourMenu } from './menu';
+import { aboutUs } from './about';
 
 // eslint-disable-next-line no-undef
 const $ = document.querySelector.bind(document);
@@ -11,35 +11,35 @@ homePage();
 homePageContent();
 
 // eslint-disable-next-line no-undef
-Array.from($$(".tab")).forEach(el => {
-    el.addEventListener("click", e => {
+Array.from($$('.tab')).forEach(el => {
+    el.addEventListener('click', e => {
         e.preventDefault;
-        const btnName = el.className.replace("tab ", "");
-        const main = $("main");
+        const btnName = el.className.replace('tab ', '');
+        const main = $('main');
 
         switch (btnName) {
-            case "home":
+            case 'home':
                 {
                     homePageContent();
-                    main.id = "home";
+                    main.id = 'home';
                     break;
                 }
-            case "about":
+            case 'about':
                 {
                     aboutUs();
-                    main.id = "about";
+                    main.id = 'about';
                     break;
                 }
-            case "menu":
+            case 'menu':
                 {
                     ourMenu();
-                    main.id = "menu";
+                    main.id = 'menu';
                     break;
                 }
-            case "contact":
+            case 'contact':
                 {
                     contactUS();
-                    main.id = "contact";
+                    main.id = 'contact';
                     break;
                 }
         }

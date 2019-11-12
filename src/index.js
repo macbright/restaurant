@@ -13,29 +13,29 @@ homePageContent();
 
 // eslint-disable-next-line no-undef
 Array.from($$('.tab')).forEach(el => { /* eslint-disable-line arrow-parens */
-  el.addEventListener('click', e => {	/* eslint-disable-line arrow-parens */
-    e.preventDefault;	/* eslint-disable-line no-unused-expressions */
-    const btnName = el.className.replace('tab ', '');	/* eslint-disable-line no-trailing-spaces */
+	el.addEventListener('click', e => {	/* eslint-disable-line arrow-parens */
+		e.preventDefault;	/* eslint-disable-line no-unused-expressions */
+		const btnName = el.className.replace('tab ', '');	/* eslint-disable-line no-trailing-spaces */
 		// eslint-disable-next-line no-undef
-    const main = $('main');
+		const main = $('main');
 
-    switch (btnName) { /* eslint-disable-line default-case */
-      case 'home':
-        homePageContent();
-        main.id = 'home';
-        break;
-      case 'about':
-        aboutUs();
-        main.id = 'about';
-        break;
-      case 'menu':
-        ourMenu();
-        main.id = 'menu';
-        break;
-      case 'contact':
-        contactUS();
-        main.id = 'contact';
-        break;
+		switch (btnName) { /* eslint-disable-line default-case */
+			case 'home':
+				homePageContent();
+				main.id = 'home';
+				break;
+			case 'about':
+				aboutUs();
+				main.id = 'about';
+				break;
+			case 'menu':
+				ourMenu();
+				main.id = 'menu';
+				break;
+			case 'contact':
+				contactUS();
+				main.id = 'contact';
+				break;
     }
   });
 });

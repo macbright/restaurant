@@ -10,15 +10,16 @@ const homePage = () => {
 			<div class="tab about"> About Us</div>
 			<div class="tab menu"> Menu</div>
 			<div class="tab contact"> Contact Us</div>
-		</header>
-		<main id="home", class="container"></main>
-			
+		</header>	
 	`;
 };
 
 const homePageContent = () => {
+	let child = document.createElement('main')
+	child.classList.add('container')
 	// eslint-disable-next-line no-undef
-	$('main').innerHTML = `
+	$('#content').appendChild(child)
+	child.innerHTML = `
 		<div class="home-content"> 
 			<h1 class="home-h1"> come eat with us @ Macbrite Restaurant </h1>
 			<h4 class="home-h4"> It's never too early to book your Holiday Party! 

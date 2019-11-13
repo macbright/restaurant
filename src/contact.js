@@ -3,7 +3,11 @@ const $ = document.querySelector.bind(document);
 
 const contactUS = () => {
 	// eslint-disable-next-line no-undef
-	$('main').innerHTML = `
+	let child = document.createElement('main')
+	// eslint-disable-next-line no-undef
+	child.classList.add('container')
+	$('#content').appendChild(child)
+	child.innerHTML = `
 	<section id="contact" class="contact-content">
 			
 		<h1 class="heading1">Contact Us</h1>

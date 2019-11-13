@@ -17,24 +17,28 @@ Array.from($$('.tab')).forEach(el => { /* eslint-disable-line arrow-parens */
 		e.preventDefault;	/* eslint-disable-line no-unused-expressions */
 		const btnName = el.className.replace('tab ', '');	/* eslint-disable-line no-trailing-spaces */
 		// eslint-disable-next-line no-undef
-		const main = $('main');
-
+		let main = $('main')
+	
 		switch (btnName) { /* eslint-disable-line default-case */
 			case 'home':
+				// eslint-disable-next-line no-undef
+				$('#content').removeChild(main);
 				homePageContent();
-				main.id = 'home';
 				break;
 			case 'about':
+				// eslint-disable-next-line no-undef
+				$('#content').removeChild(main);
 				aboutUs();
-				main.id = 'about';
 				break;
 			case 'menu':
+				// eslint-disable-next-line no-undef
+				$('#content').removeChild(main);
 				ourMenu();
-				main.id = 'menu';
 				break;
 			case 'contact':
+				// eslint-disable-next-line no-undef
+				$('#content').removeChild(main);
 				contactUS();
-				main.id = 'contact';
 				break;
 		}
 	});

@@ -3,7 +3,11 @@ const $ = document.querySelector.bind(document);
 
 const ourMenu = () => {
 	// eslint-disable-next-line no-undef
-	$('main').innerHTML = `
+	let child = document.createElement('main')
+	child.classList.add('container')
+	// eslint-disable-next-line no-undef
+	$('#content').appendChild(child)
+	child.innerHTML = `
 		<div class="row foodMenu">
 			<div class="col-md-3 meal">
 				<div class="meal-img">

@@ -15,10 +15,11 @@ const homePage = () => {
 };
 
 const homePageContent = () => {
-	let child = document.createElement('main')
-	child.classList.add('container')
 	// eslint-disable-next-line no-undef
-	$('#content').appendChild(child)
+	const child = document.createElement('main');
+	child.classList.add('container');
+	// eslint-disable-next-line no-undef
+	$('#content').appendChild(child);
 	child.innerHTML = `
 		<div class="home-content"> 
 			<h1 class="home-h1"> come eat with us @ Macbrite Restaurant </h1>

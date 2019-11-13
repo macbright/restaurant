@@ -3,10 +3,10 @@ const $ = document.querySelector.bind(document);
 
 const aboutUs = () => {
 	// eslint-disable-next-line no-undef
-	let child = document.createElement('main')
+	const child = document.createElement('main');
 	// eslint-disable-next-line no-undef
-	child.classList.add('container')
-	$('#content').appendChild(child)
+	child.classList.add('container');
+	$('#content').appendChild(child);
 	child.innerHTML = `   
 		<div class="row about-content container">
 			<h2>  Passionately personal and genuinely delicious! </h2>

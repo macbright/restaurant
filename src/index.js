@@ -17,8 +17,7 @@ Array.from($$('.tab')).forEach(el => { /* eslint-disable-line arrow-parens */
 		e.preventDefault;	/* eslint-disable-line no-unused-expressions */
 		const btnName = el.className.replace('tab ', '');	/* eslint-disable-line no-trailing-spaces */
 		// eslint-disable-next-line no-undef
-		let main = $('main')
-	
+		const main = $('main');
 		switch (btnName) { /* eslint-disable-line default-case */
 			case 'home':
 				// eslint-disable-next-line no-undef

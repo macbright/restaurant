@@ -3,10 +3,10 @@ const $ = document.querySelector.bind(document);
 
 const contactUS = () => {
 	// eslint-disable-next-line no-undef
-	let child = document.createElement('main')
+	const child = document.createElement('main');
 	// eslint-disable-next-line no-undef
-	child.classList.add('container')
-	$('#content').appendChild(child)
+	child.classList.add('container');
+	$('#content').appendChild(child);
 	child.innerHTML = `
 	<section id="contact" class="contact-content">
 			

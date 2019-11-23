@@ -1,0 +1,27 @@
+{
+    "name": "restaurant",
+    "version": "1.0.0",
+    "description": "This project comes after the introduction of the ES6 class keyword, ES6 modules, and webpack. The main goal of this project is for the student to show the understanding of the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "eslint": "eslint --ignore-path .gitignore ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/macbright/restaurant.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/macbright/restaurant/issues"
+    },
+    "homepage": "https://github.com/macbright/restaurant#readme",
+    "devDependencies": {
+        "eslint": "^6.6.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    }
+}
